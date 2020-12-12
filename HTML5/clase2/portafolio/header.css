@@ -8,10 +8,12 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(14 , 1fr);
+    grid-template-rows:800px auto 100px ;
 }
 
 header{
     grid-column: 1/15;
+    grid-row: 1;
     height: 800px;
     background: url(img/daniel-leone-g30P1zcOzXo-unsplash.jpg);
     background-size: cover;
