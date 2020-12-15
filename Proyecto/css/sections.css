@@ -12,12 +12,13 @@
     display: grid;
     grid-template-columns: repeat(14,1fr);
     grid-template-rows: minmax(800px, 800px);
+    background: red;
 }
 
 .slider .your-class{
-    grid-row: 1;
     grid-column: 1/15;
     height: 800px;
+    background: #000;
 }
 
 .your-class div{
@@ -28,9 +29,6 @@
     justify-content: center;
 }
 
-.your-class div img{
-    height: 100%;
-}
 
 .movies{
     margin-top: 50px;

@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/sections.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footer.css"> 
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
 </head>
 
 <body>
@@ -29,29 +31,26 @@
             <section class="slider">
                 <div class="your-class">
                     <div><img src="img/logo.png" alt=""> </div>
+                    <div><img src="img/logo.png" alt=""> </div>
+                    <div><img src="img/logo.png" alt=""> </div>
                 </div>
 
                 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
                 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-                <script type="text/javascript" src="/slick-1.8.1/slick/slick.min.js"></script>
+                <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
 
                 <script type="text/javascript">
                     $(document).ready(function () {
-                        $('.your-class').slick({
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                            autoplay: true,
-                            autoplaySpeed: 4000,
-                            dots: true,
-                            infinite: true,
-                            speed: 300,
-                            slidesToShow: 1,
-                            adaptiveHeight: true,
-                            arrows: true
-                        });
+                        $('.your-class').slick();
                     });
                 </script>
             </section>
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('.your-class').slick();
+                });
+            </script>
             <section class="movies">
                 <div><img src="img/logo.png" alt=""> </div>
                 <div><img src="img/logo.png" alt=""> </div>
