@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <div class="responsive">
+        <header>
+            <nav>
+                <!-- nav : esto es un menu navegacion-->
+                <div class="logo"><a href=""><img src="img/logo.png" alt="logo" title="logo"></a></div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Peliculas</a></li>
+                    <li><a href="">Compras</a></li>
+                    <li><a href="">Iniciar Sesion</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content-section">
+            <section class="slider">
+                <div class="your-class">
+                    <div><img src="img/logo.png" alt=""> </div>
+                </div>
+
+                <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+                <script type="text/javascript" src="/slick-1.8.1/slick/slick.min.js"></script>
+
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('.your-class').slick({
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            autoplay: true,
+                            autoplaySpeed: 4000,
+                            dots: true,
+                            infinite: true,
+                            speed: 300,
+                            slidesToShow: 1,
+                            adaptiveHeight: true,
+                            arrows: true
+                        });
+                    });
+                </script>
+            </section>
+            <section class="movies">
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+                <div><img src="img/logo.png" alt=""> </div>
+
+            </section>
+        </div>
+        <footer> <h2>Soy un footer</h2></footer>
+    </div>
+</body>
+
+</html>
